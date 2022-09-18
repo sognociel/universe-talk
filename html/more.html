@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../img/galaxy.png" />
+    <title>Universe More</title>
+  </head>
+  <body>
+    <div id="stars non-animation"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <a href="index.html"><span id="clock">00:00</span></a>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <span class="header__point badge"></span>
+          <a href="music.html"><i class="fas fa-music fa-lg"></i></a>
+        </span>
+        <span>
+          <span class="header__point badge"></span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <div id="position-fixed-border"></div>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="../img/astronaut_line.png"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">CODE NAME : Moon</h4>
+            <div class="user-component__subtitle">
+              <h6>UTC 224468 27 1969</h6>
+              <a
+                href="https://solarsystem.nasa.gov/moons/earths-moon/in-depth/"
+                target="_blank"
+              >
+                <i class="fas fa-exclamation-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>
+            <a
+              href="https://solarsystem.nasa.gov/moons/earths-moon/overview/"
+              target="_blank"
+            >
+              <i class="far fa-comment-alt fa-2x"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <div class="icon-box">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="far fa-calendar-check"></i>
+            <span>Calendar</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-hdd"></i>
+            <span class="icon__point badge"> </span>
+            <span>Talk Drive</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-grin"></i>
+            <span>Emoticons</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-brush"></i>
+            <span>Themes</span>
+          </div>
+        </div>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <span>Account</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-comments"></i>
+            <span>Openchat</span>
+          </div>
+          <div class="icon-row__icon"></div>
+          <div class="icon-row__icon"></div>
+        </div>
+      </div>
+
+      <div class="more-suggestion">
+        <h4 class="more-suggestion__title">Suggestions</h4>
+      </div>
+
+      <div class="suggestion-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar-alt"></i>
+          <span>Schedule</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-download"></i>
+          <span>Download</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-screwdriver"></i>
+          <span>Repair</span>
+        </div>
+        <div class="icon-row__icon"></div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__alarm badge">2</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__point badge"> </span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="mobile">
+      <span>Your screen is too big😢</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/clock.js"></script>
+  </body>
+</html>

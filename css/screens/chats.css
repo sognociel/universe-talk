@@ -1,0 +1,26 @@
+.chat-alarm {
+  width: 20px;
+  height: 20px;
+}
+
+.chatting__box {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.chatting__box:hover {
+  animation: shine 1.5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    border: 1px solid var(--badge);
+  }
+  50% {
+    border: 1px solid var(--badge);
+    transform: translateY(-5%);
+  }
+  100% {
+    border: 1px solid var(--badge);
+  }
+}

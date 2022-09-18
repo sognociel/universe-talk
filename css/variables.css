@@ -1,0 +1,9 @@
+:root {
+  --antiquewhite: antiquewhite;
+  --darkpurple: #4b4254;
+  --graypurple: #d9d5de;
+  --lightgray: rgba(250, 235, 215, 0.5);
+  --basic-space: 20px;
+  --main-border: 1px solid antiquewhite;
+  --badge: #8400ff;
+}

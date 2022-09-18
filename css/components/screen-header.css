@@ -1,0 +1,69 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  padding: 35px var(--basic-space) 10px var(--basic-space);
+  box-sizing: border-box;
+  z-index: 2;
+  background-color: #090a0f;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header__icons span:nth-child(2) {
+  position: relative;
+}
+
+.header__point {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  right: -5px;
+  bottom: 20px;
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: shakeMusic 1.5s linear infinite;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes shakeMusic {
+  0% {
+    transform: none;
+  }
+  33% {
+    transform: rotate(-30deg);
+  }
+  66% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: none;
+  }
+}

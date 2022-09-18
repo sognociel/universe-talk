@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../img/galaxy.png" />
+    <title>Universe Music</title>
+  </head>
+  <body>
+    <div id="stars non-animation"></div>
+    <div id="stars2 non-animation"></div>
+    <div id="stars3"></div>
+
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-times fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Playlist</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
+      </div>
+    </header>
+
+    <div id="position-fixed-border__narrow"></div>
+
+    <main class="main-screen music-screen">
+      <div class="music-data music-data-big">
+        <img src="../img/music/ive-after_like.png" alt="" />
+        <div class="music-data__text">
+          <h4>After Like</h4>
+          <h6>by IVE · 2:57</h6>
+        </div>
+      </div>
+
+      <div class="music-playbar">
+        <button class="music-playbar__box music-playbar__box-square">
+          <i class="fas fa-caret-right"></i>
+          <span>Play</span>
+        </button>
+        <button class="music-playbar__box music-playbar__box-round">
+          <i class="far fa-heart"></i>
+        </button>
+        <button class="music-playbar__box music-playbar__box-round">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <ul>
+        <li class="music-data-list">
+          <div class="music-data">
+            <img src="../img/music/girls_generation-forever1.png" alt="" />
+            <div class="music-data__text">
+              <h4>FOREVER 1</h4>
+              <h6>Girls' Generation · 3:23</h6>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </li>
+
+        <li class="music-data-list">
+          <div class="music-data">
+            <img src="../img/music/chu-heart_attack.png" alt="" />
+            <div class="music-data__text">
+              <h4>Heart Attack</h4>
+              <h6>Chu · 3:15</h6>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </li>
+
+        <li class="music-data-list">
+          <div class="music-data">
+            <img src="../img/music/yena-smiley(feat_bibi).png" alt="" />
+            <div class="music-data__text">
+              <h4>SMILEY(feat. BIBI)</h4>
+              <h6>YENA · 2:54</h6>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </li>
+
+        <li class="music-data-list">
+          <div class="music-data">
+            <img src="../img/music/chungha-sparkling.png" alt="" />
+            <div class="music-data__text">
+              <h4>Sparkling</h4>
+              <h6>Chung Ha · 3:07</h6>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__alarm badge">2</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__point badge"> </span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="mobile">
+      <span>Your screen is too big😢</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/clock.js"></script>
+  </body>
+</html>
